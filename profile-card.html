@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/service-website-template-main/css/profile-card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+        <div class="card p-4">
+            <div class="image d-flex flex-column justify-content-center align-items-center">
+                <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#profileModal">
+                    <img src="/service-website-template-main/images/profile-icon.png" height="100" width="100" />
+                </button>
+                <span class="name mt-3">Aditya Shinde</span>
+                <span class="idd">@Aditya Shinde</span>
+                <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                    <span class="number">User <span class="follow"></span></span>
+                </div>
+                <div class="d-flex mt-2">
+                    <button class="btn1 btn-dark" data-bs-toggle="modal" data-bs-target="#profileModal">Edit Profile</button>
+                </div>
+                <div class="text mt-3">
+                    <span>Aditya Shinde is a creator of minimalistic x bold graphics and digital artwork.<br><br> Artist/ Creative Director by Day #NFT minting@ with FND night. </span>
+                </div>
+                <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center">
+                    <span><i class="fa fa-twitter"></i></span>
+                    <span><i class="fa fa-facebook-f"></i></span>
+                    <span><i class="fa fa-instagram"></i></span>
+                    <span><i class="fa fa-linkedin"></i></span>
+                </div>
+                <div class="px-2 rounded mt-4 date">
+                    <span class="join">Joined May, 2021</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="profileModalLabel">Profile Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="image d-flex flex-column justify-content-center align-items-center">
+                        <img src="/service-website-template-main/images/profile-icon.png" height="100" width="100" />
+                        <span class="name mt-3">Aditya Shinde</span>
+                        <span class="idd">@Aditya Shinde</span>
+                        <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                            <span class="number">User <span class="follow"></span></span>
+                        </div>
+                        <div class="text mt-3">
+                            <span>Aditya Shinde is a creator of minimalistic x bold graphics and digital artwork.<br><br> Artist/ Creative Director by Day #NFT minting@ with FND night. </span>
+                        </div>
+                        <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center">
+                            <span><i class="fa fa-twitter"></i></span>
+                            <span><i class="fa fa-facebook-f"></i></span>
+                            <span><i class="fa fa-instagram"></i></span>
+                            <span><i class="fa fa-linkedin"></i></span>
+                        </div>
+                        <div class="px-2 rounded mt-4 date">
+                            <span class="join">Joined May, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
